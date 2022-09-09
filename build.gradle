@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'net.jakobmagiera'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'net.jakobmagiera.midi.MidiReader'
+        )
+    }
+}
