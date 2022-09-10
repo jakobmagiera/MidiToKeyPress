@@ -1,6 +1,14 @@
 # MidiToKeyPress
 A command line tool that converts a MIDI sustain pedal event to a key press event.
 
+It can be used in computer games to trigger in game functions like 
+running, jumping, or pushing the gas pedal. For example, in the game, you
+could map the key 'R' to make your character run fast. You can run MidiToKeyPress 
+to map the sustain pedal to 'R'. 
+
+When you play the game now, pressing the sustain pedal will cause
+your character to run just like pressing 'R' on the keyboard.
+
 ## Installation
 
 Ensure you have [Java](https://java.com) installed.
