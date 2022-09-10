@@ -11,7 +11,7 @@ repositories {
 jar {
     manifest {
         attributes(
-                'Main-Class': 'net.jakobmagiera.midi.MidiReader'
+                'Main-Class': 'net.jakobmagiera.midi.Launcher'
         )
     }
 }
