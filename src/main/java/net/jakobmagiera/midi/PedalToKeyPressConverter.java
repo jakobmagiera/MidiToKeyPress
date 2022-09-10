@@ -1,7 +1,11 @@
 package net.jakobmagiera.midi;
 
 public class PedalToKeyPressConverter implements PedalPressListener{
-    private final KeyPresser keyPresser = new KeyPresser();
+    private final KeyPresser keyPresser;
+
+    public PedalToKeyPressConverter(int keyCode) {
+        keyPresser = new KeyPresser(keyCode);
+    }
 
     @Override
     public void pedalDown() {

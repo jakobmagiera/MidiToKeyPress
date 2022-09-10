@@ -9,9 +9,14 @@ import java.util.concurrent.atomic.AtomicBoolean;
 class KeyPresser implements Runnable {
 
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
+    private final int keyCode;
     private AtomicBoolean press = new AtomicBoolean(false);
 
     private Robot robot = null;
+
+    public KeyPresser(int keyCode) {
+        this.keyCode = keyCode;
+    }
 
     public void start() {
         initRobot();
@@ -32,7 +37,7 @@ class KeyPresser implements Runnable {
     public void stop() {
         initRobot();
         press.set(false);
-        robot.keyRelease(KeyEvent.VK_X);
+        robot.keyRelease(keyCode);
     }
 
     @Override
@@ -40,7 +45,7 @@ class KeyPresser implements Runnable {
         boolean exit = false;
         while (!exit) {
             if (press.get()) {
-                robot.keyPress(KeyEvent.VK_X);
+                robot.keyPress(keyCode);
             }
             try {
                 Thread.sleep(200);
