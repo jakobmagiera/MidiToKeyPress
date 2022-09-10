@@ -9,6 +9,9 @@ to map the sustain pedal to 'R'.
 When you play the game now, pressing the sustain pedal will cause
 your character to run just like pressing 'R' on the keyboard.
 
+This tool is written in java, making it suitable for all common operating systems,
+e.g. Windows, Linux, and MacOS.
+
 ## Installation
 
 Ensure you have [Java](https://java.com) installed.
