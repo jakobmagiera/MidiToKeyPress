@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="131.35744mm"
+   height="72.907509mm"
+   viewBox="0 0 131.35744 72.907507"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="C:\Users\jakob\logo.png"
+   inkscape:export-xdpi="123.75"
+   inkscape:export-ydpi="123.75"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2810466"
+     inkscape:cx="115.92084"
+     inkscape:cy="174.46672"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background"
+     style="display:inline"
+     transform="translate(-7.4353266,-13.424895)">
+    <rect
+       style="fill:#fdf0d6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-opacity:1"
+       id="rect58059"
+       width="131.35744"
+       height="72.907509"
+       x="7.4353266"
+       y="13.424895" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.851179,-85.695295)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:125%;font-family:'Terminator Two';-inkscape-font-specification:'Terminator Two';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="70.84214"
+       y="125.35207"
+       id="text1816"><tspan
+         sodipodi:role="line"
+         id="tspan1814"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'Terminator Two';-inkscape-font-specification:'Terminator Two';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-opacity:1"
+         x="70.84214"
+         y="125.35207">MIDI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9062px;line-height:125%;font-family:'SWGamekeys MT';-inkscape-font-specification:'SWGamekeys MT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="114.62794"
+       y="125.5744"
+       id="text24400"><tspan
+         sodipodi:role="line"
+         id="tspan24398"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SWGamekeys MT';-inkscape-font-specification:'SWGamekeys MT';fill:#000000;fill-opacity:1;stroke-width:0.264583px"
+         x="114.62794"
+         y="125.5744">KEY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;line-height:125%;font-family:Leelawadee;-inkscape-font-specification:'Leelawadee Bold';letter-spacing:0px;word-spacing:0px;fill:#b21414;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="102.23574"
+       y="125.21977"
+       id="text36886"><tspan
+         sodipodi:role="line"
+         id="tspan36884"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;font-family:Leelawadee;-inkscape-font-specification:'Leelawadee Bold';fill:#b21414;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+         x="102.23574"
+         y="125.21977">2</tspan></text>
+  </g>
+</svg>
