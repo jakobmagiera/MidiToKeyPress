@@ -14,4 +14,11 @@ jar {
                 'Main-Class': 'net.jakobmagiera.midi.Launcher'
         )
     }
+    doLast {
+        copy {
+            from "build/libs/"
+            include "MidiToKeyPress*.jar"
+            into "release"
+        }
+    }
 }
