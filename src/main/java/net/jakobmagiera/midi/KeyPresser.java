@@ -1,13 +1,11 @@
 package net.jakobmagiera.midi;
 
 import java.awt.*;
-import java.awt.event.KeyEvent;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 class KeyPresser implements Runnable {
-
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
     private final int keyCode;
     private AtomicBoolean press = new AtomicBoolean(false);
@@ -42,17 +40,19 @@ class KeyPresser implements Runnable {
 
     @Override
     public void run() {
-        boolean exit = false;
-        while (!exit) {
-            if (press.get()) {
-                robot.keyPress(keyCode);
-            }
-            try {
+        try {
+            boolean exit = false;
+            Thread.sleep(500);
+            while (!exit) {
+                if (press.get()) {
+                    robot.keyPress(keyCode);
+                } else {
+                    exit = true;
+                }
                 Thread.sleep(200);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                exit = true;
             }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
         }
     }
 }
