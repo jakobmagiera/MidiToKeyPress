@@ -19,6 +19,7 @@ class KeyPresser implements Runnable {
     public void start() {
         initRobot();
         press.set(true);
+        robot.keyPress(keyCode);
         executorService.submit(this);
     }
 
