@@ -23,13 +23,13 @@ On the command line, enter ```java -jar MidiToKeyPress-1.1.jar [MIDIDeviceName] 
 
 ### Example
 
-```java -jar MidiToKeyPress-1.0.jar swissonic u```
+```java -jar MidiToKeyPress-1.1.jar swissonic u```
 
 This will try to identify a MIDI device which contains the word "swissonic" and map pressing the sustain pedal
 to pressing the letter 'u'.
 
 ## Special Keys
-The following special keys are supported by passing their name on the command line (e. g. ```java -jar MidiToKeyPress-1.0.jar swissonic F10```).
+The following special keys are supported by passing their name on the command line (e. g. ```java -jar MidiToKeyPress-1.1.jar swissonic F10```).
 ```
 CTRL
 ALT
