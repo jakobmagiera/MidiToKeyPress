@@ -15,7 +15,7 @@ e.g. Windows, Linux, and MacOS.
 ## Installation
 
 Ensure you have [Java](https://java.com) installed.
-Download the [MidiToKeyPress-1.1.jar](releases) file.
+Download the [MidiToKeyPress-1.1.jar](https://github.com/jakobmagiera/MidiToKeyPress/releases) file.
 
 ## Running
 
